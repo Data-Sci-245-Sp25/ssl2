@@ -20,16 +20,6 @@
     ]
   },
   {
-    "objectID": "findings.html",
-    "href": "findings.html",
-    "title": "Findings",
-    "section": "",
-    "text": "Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.",
-    "crumbs": [
-      "Findings"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "How do the top 3 types of cancer death vary among each race and ethnicity over the past 10 years?",

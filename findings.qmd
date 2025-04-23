@@ -39,6 +39,7 @@ pops_black <- pops %>% filter(!(Race %in% c("asian", "hispanic")))
 
 ```{r}
 #| echo: false
+#| warning: false
 library(ggplot2)
 
 # Create a combined dataframe 
@@ -48,33 +49,13 @@ lung_df <- bind_rows(
   mutate(lung_hispanic, Race = "Hispanic", Rate = deaths / pops_hispanic$Population * 100000),
   mutate(lung_asian, Race = "Asian", Rate = deaths / pops_asian$Population * 100000)
 )
-
-ggplot(lung_df, aes(x = ddodyear, y = Rate, color = Race)) +
-  geom_line(size = 1.2) +
-  geom_point() +
-  labs(title = "Lung Cancer Death Rate (per 100,000) by Race (2014–2023)",
-       x = "Year", y = "Death Rate per 100,000") +
-  theme_minimal() +
-  scale_color_brewer(palette = "Set1")
-
-
 ```
+
 
 ```{r}
 #| echo: false
-#this is the first graph
-plot(lung_hispanic$ddodyear, (lung_hispanic$deaths/pops_hispanic$Population)*100000, 
-     frame = FALSE, pch = 19, col = "red", type="b", lty=2,
-     main = "Lung Cancer 2014-2023 for Asian, Black, and Hispanic Populations",
-     xlab = "Year", ylab = "Number of Deaths per 100,000", 
-     ylim = c(0, 50))
-lines(lung_asian$ddodyear, (lung_asian$deaths/pops_asian$Population)*100000, pch=18, col="blue", type="b", lty=2)
-lines(lung_black$ddodyear, (lung_black$deaths/pops_black$Population)*100000, pch=22, col="green", type="b", lty=2)
-```
-
-```{r}
-#| echo: false
-#2nd 
+#| warning: false
+#white piechart
 cancer_types <- c("Lung", "Pancreas", "Breast")
 death_rates <- c(28.25, 10.02, 8.79)
 colors <- c("blue", "green", "red")
@@ -102,17 +83,8 @@ legend(
 
 ```{r}
 #| echo: false
-#6th 
-plot(lung_white$ddodyear, (lung_white$deaths/pops_hispanic$Population)*100000, 
-     frame = FALSE, pch = 19, col = "red", type="b", lty=2,
-     main = "Lung Cancer 2014-2023 for White Populations",
-     xlab = "Year", ylab = "Number of Deaths per 100,000", 
-     ylim = c(0, 350))
-```
-
-```{r}
-#| echo: false
-#3rd black
+#| warning: false
+#black piechart
 cancer_types <- c("Lung", "Liver", "Prostate")
 death_rates <- c(28.00, 10.88, 10.88)
 colors <- c("blue", "yellow", "red")
@@ -133,7 +105,9 @@ legend("topright", legend = cancer_types, fill = colors, title = "Cancer Type", 
 
 ```{r}
 #| echo: false
-#4th Hispanic
+#| warning: false
+
+#Hispanic piechart
 cancer_types <- c("Lung", "Pancreas", "Liver")
 death_rates <- c(4.11, 2.38, 2.16)
 colors <- c("blue", "green", "yellow")
@@ -153,7 +127,9 @@ legend("topright", legend = cancer_types, fill = colors, title = "Cancer Type", 
 
 ```{r}
 #| echo: false
-#5th Asian
+#| warning: false
+
+#Asian piechart
 cancer_types <- c("Lung", "Liver", "Pancreas")
 death_rates <- c(18.50, 8.47, 6.74)
 colors <- c("blue", "yellow", "green")
@@ -168,4 +144,47 @@ pie(
 )
 
 legend("topright", legend = cancer_types, fill = colors, title = "Cancer Type", cex = 0.9)
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+#all time series lungs
+
+ggplot(lung_df, aes(x = ddodyear, y = Rate, color = Race)) +
+  geom_line(size = 1.2) +
+  geom_point() +
+  labs(title = "Lung Cancer Death Rate (per 100,000) by Race (2014–2023)",
+       x = "Year", y = "Death Rate per 100,000") +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set1")
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+
+#3 race time series lungs
+plot(lung_hispanic$ddodyear, (lung_hispanic$deaths/pops_hispanic$Population)*100000, 
+     frame = FALSE, pch = 19, col = "red", type="b", lty=2,
+     main = "Lung Cancer 2014-2023 for Asian, Black, and Hispanic Populations",
+     xlab = "Year", ylab = "Number of Deaths per 100,000", 
+     ylim = c(0, 50))
+lines(lung_asian$ddodyear, (lung_asian$deaths/pops_asian$Population)*100000, pch=18, col="blue", type="b", lty=2)
+lines(lung_black$ddodyear, (lung_black$deaths/pops_black$Population)*100000, pch=22, col="green", type="b", lty=2)
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#white pop time series
+plot(lung_white$ddodyear, (lung_white$deaths/pops_hispanic$Population)*100000, 
+     frame = FALSE, pch = 19, col = "red", type="b", lty=2,
+     main = "Lung Cancer 2014-2023 for White Populations",
+     xlab = "Year", ylab = "Number of Deaths per 100,000", 
+     ylim = c(0, 350))
 ```

@@ -1,0 +1,17 @@
+---
+title: "How do the top 3 types of cancer death vary among each race and ethnicity over the past 10 years?"
+author: "Lily, Lauren, Shubhika in collaboration with Multnomah County Health Department"
+editor: visual
+---
+
+Are certain types of cancer more prevalent or deadly in specific racial or ethnic populations?
+
+What are the trends in cancer mortality over the past decade across these groups??
+
+What are the top 3, in 1 yr look at various races.
+
+Figuring out the top 3 overall, if there is a large grp of white alone (bc there are more white people) will skew the data
+
+Lung, breast, pancreatic is the top 3 for aggregated data
+
+How does this look in diff races? but everyone has there own top 3?

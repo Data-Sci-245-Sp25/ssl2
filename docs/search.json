@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "How do the top 3 types of cancer death vary among each race and ethnicity over the past 10 years?",
+    "section": "",
+    "text": "Are certain types of cancer more prevalent or deadly in specific racial or ethnic populations?\nWhat are the trends in cancer mortality over the past decade across these groups??\nWhat are the top 3, in 1 yr look at various races.\nFiguring out the top 3 overall, if there is a large grp of white alone (bc there are more white people) will skew the data\nLung, breast, pancreatic is the top 3 for aggregated data\nHow does this look in diff races? but everyone has there own top 3?",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "Background Information",
+    "section": "",
+    "text": "Cancer remains one of the leading causes of death in the United States, with significant disparities in outcomes across racial and ethnic groups (CDC 2023). While overall cancer mortality has declined since the turn of the century, these improvements have not been equally distributed across populations, creating a critical publish health equity challenge.\nThese disparities are shaped by structural racism and a multitude of socioeconomic and environmental factors, including unequal access to timely care and differences in insurance coverage (Jack and Mitchell 2023). Historical patterns of discrimination have created enduring disparities that manifest in cancer screening rates, stage at diagnosis, treatment quality, and survival outcomes.\nBlack Americans experience the highest overall cancer death rates among all racial and ethnic groups, with particular disparities when it comes to prostate and colorectal cancers (CDC 2025). For example, Black men have a prostate cancer mortality rate nearly twice that of their white counterparts, despite similar incidence rates. This disparity suggests critical differences between races and ethnicities regarding early detection, access to treatment, and quality of care.\nNative American and Alaska Native populations have seen increasing mortality rates for several cancer types, particularly lung, colorectal, liver, stomach, and kidney cancers (Jack and Mitchell). Indigenous populations often face additional barriers to care, namely geographic isolation and a lack of specialized cancer treatment centers that utilize culturally appropriate care models.\n\n\n\nGraph from the CDC’s “Cancer Deaths” page\n\n\nPlace-based disparities interact with racial and ethnic variables in complex ways that necessitate more granular analysis to comprehend and address. In other words, understanding locale-specific patterns is essential for developing effective public health interventions.\nDespite growing awareness of the relationship between cancer deaths and race, the public health literature remains limited in its exploration of how these disparities vary at local levels. This research aims to examine the relationship between race/ethnicity and cancer-related deaths in the Multnomah county, with the goal of identifying persistent gaps in outcomes.\nRecent trends in national cancer rates have revealed that the cases of cancer in people with a white, non-Hispanic identity have increased, however this does not reflect the mortality rate of these instances.\n\n\n\nGraph from the CDC’s “History of Cancer” page\n\n\nThis study aims to examine the relationship between race/ethnicity and cancer-related deaths in Multnomah County, Oregon, to identify persistent gaps in outcomes. This approach, focusing on county-level race/ethnicity data, provides valuable insights for healthcare providers, public health officials, and community organizations so we can achieve better cancer health equity in Multnomah County.",
+    "crumbs": [
+      "Background Information"
+    ]
+  },
+  {
+    "objectID": "abstract.html",
+    "href": "abstract.html",
+    "title": "Abstract",
+    "section": "",
+    "text": "This project analyzes cancer mortality data from Multnomah County, focusing on how the top three causes of cancer-related deaths have varied across racial and ethnic groups over the past ten years. Race and ethnicity were selected as key variables due to their deep connections with structural factors such as geographic location, access to care, and economic status. Historically, communities of color in Multnomah County have been disproportionately impacted by health inequities stemming from systemic discrimination. By centering these populations in our analysis, this research aims to bring visibility to patterns of disparity that are often underrepresented in public health data. The findings from this study are intended to support the Multnomah County Health Department in developing more informed, equitable, and community-responsive health policies moving forward.",
+    "crumbs": [
+      "Abstract"
+    ]
+  },
+  {
+    "objectID": "aim.html",
+    "href": "aim.html",
+    "title": "Aim of Research",
+    "section": "",
+    "text": "The aim of this research is to investigate how the top three types of cancer-related deaths have varied across different racial and ethnic groups in Multnomah County over the past ten years. By identifying patterns and disparities in cancer mortality, this study seeks to understand how structural inequalities, such as access to healthcare and historical discrimination, may contribute to unequal health outcomes. We have centered our core variables to race and ethnicity to be able to move beyond surface-level data and instead focus on the lived experiences of communities that have often been excluded from dominant health narratives. Ultimately, this research aims to inform more inclusive public health strategies and contribute to ongoing efforts toward health equity and justice.",
+    "crumbs": [
+      "Aim of Research"
+    ]
+  }
+]

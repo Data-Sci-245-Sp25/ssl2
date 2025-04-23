@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Cancer Deaths 2013-2023 Multnomah County"
+  search: false
+  sidebar:
+    style: "docked"
+    contents:
+      - href: index.qmd #Shubhika
+        text: Home
+      - href: abstract.qmd #Lauren
+        text: Abstract
+      - href: background.qmd
+        text: Background Information #Lauren
+      - href: aim.qmd
+        text: Aim of Research #Shubhika
+      - href: methods.qmd
+        text: Methods #Lily
+      - href: findings.qmd
+        text: Findings
+      - href: conclusion.qmd
+        text: Conclusions
+
+format:
+  html:
+    theme: superhero
+    css: style.css
+    toc: true
+    code-fold: true
+    

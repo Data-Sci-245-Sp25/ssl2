@@ -1,0 +1,32 @@
+---
+title: "Background Information"
+format: html
+---
+
+
+
+Cancer remains one of the leading causes of death in the United States, with significant disparities in outcomes across racial and ethnic groups ([CDC 2023](https://www.cdc.gov/nchs/hus/topics/cancer-deaths.html)). While overall cancer mortality has declined since the turn of the century, these improvements have not been equally distributed across populations, creating a critical publish health equity challenge.
+
+These disparities are shaped by structural racism and a multitude of socioeconomic and environmental factors, including unequal access to timely care and differences in insurance coverage ([Jack and Mitchell 2023](https://www.cdc.gov/pcd/collections/pdf/racism_is_a_public_health_crisis_combating_racism_508.pdf)). Historical patterns of discrimination have created enduring disparities that manifest in cancer screening rates, stage at diagnosis, treatment quality, and survival outcomes.
+
+Black Americans experience the highest overall cancer death rates among all racial and ethnic groups, with particular disparities when it comes to prostate and colorectal cancers ([CDC 2025](https://www.cdc.gov/cancer/health-equity/african-american.html)). For example, Black men have a prostate cancer mortality rate nearly twice that of their white counterparts, despite similar incidence rates. This disparity suggests critical differences between races and ethnicities regarding early detection, access to treatment, and quality of care.
+
+Native American and Alaska Native populations have seen increasing mortality rates for several cancer types, particularly lung, colorectal, liver, stomach, and kidney cancers ([Jack and Mitchell](https://www.cdc.gov/pcd/collections/pdf/racism_is_a_public_health_crisis_combating_racism_508.pdf)). Indigenous populations often face additional barriers to care, namely geographic isolation and a lack of specialized cancer treatment centers that utilize culturally appropriate care models.
+
+
+[![Graph from the CDC's "Cancer Deaths" page](images/clipboard-1274355408.png)](https://www.cdc.gov/nchs/hus/topics/cancer-deaths.htm#featured-charts)
+
+
+
+Place-based disparities interact with racial and ethnic variables in complex ways that necessitate more granular analysis to comprehend and address. In other words, understanding locale-specific patterns is essential for developing effective public health interventions.
+
+
+
+Despite growing awareness of the relationship between cancer deaths and race, the public health literature remains limited in its exploration of how these disparities vary at local levels. This research aims to examine the relationship between race/ethnicity and cancer-related deaths in the Multnomah county, with the goal of identifying persistent gaps in outcomes.
+
+Recent trends in national cancer rates have revealed that the cases of cancer in people with a white, non-Hispanic identity have increased, however this does *not* reflect the mortality rate of these instances.
+
+[![Graph from the CDC's "History of Cancer" page](images/history_of_cancer.png)](https://www.cdc.gov/nchs/hus/topics/history-of-cancer.htm)
+
+This study aims to examine the relationship between race/ethnicity and cancer-related deaths in Multnomah County, Oregon, to identify persistent gaps in outcomes. This approach, focusing on county-level race/ethnicity data, provides valuable insights for healthcare providers, public health officials, and community organizations so we can achieve better cancer health equity in Multnomah County.
+

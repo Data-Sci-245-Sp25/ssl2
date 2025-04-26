@@ -2,3 +2,17 @@
 title: "Conclusions"
 format: html
 ---
+
+- Lung cancer is the leading cause of cancer-related death across all racial and ethnic groups in Multnomah County over the past decade.
+
+- White populations experience significantly higher lung cancer death rates than all other groups, peaking at over 300 deaths per 100,000 in 2015.
+
+- Black individuals show the second-highest mortality rates, with substantial fluctuations and a notable spike in 2017.
+
+- Hispanic and Asian populations consistently show lower death rates, although they still face year-to-year variation and should not be overlooked.
+
+- The top three cancer types differ across racial/ethnic groups: for example, liver and prostate cancer rank high among Black individuals, while pancreatic cancer is more prevalent among White and Hispanic populations.
+
+- Disparities are influenced by structural inequities such as access to care, geographic isolation, and culturally appropriate services.
+
+- Removing White population data in comparative graphs reveals hidden trends and disparities among other racial groups that were previously masked by scale.

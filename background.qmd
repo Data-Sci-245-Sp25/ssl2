@@ -2,6 +2,18 @@
 title: "Background Information"
 format: html
 ---
+Key takeaways:
+
+- Cancer is a leading cause of death in the U.S., but progress in reducing mortality has not been equally shared across racial and ethnic groups.
+
+- Racial disparities in cancer outcomes are shaped by systemic inequities such as structural racism, unequal healthcare access, and socioeconomic barriers.
+
+- Black Americans face the highest cancer mortality rates nationally, especially in prostate and colorectal cancers.
+
+- Native American and Alaska Native populations have rising cancer death rates, often worsened by geographic isolation and limited access to culturally appropriate care.
+
+- Local-level data, like that of Multnomah County, is critical to uncovering place-based disparities and designing targeted public health responses.
+
 
 Cancer remains one of the leading causes of death in the United States, with significant disparities in outcomes across racial and ethnic groups ([CDC 2023](https://www.cdc.gov/nchs/hus/topics/cancer-deaths.html)). Although overall cancer mortality has declined since the early 2000s, these improvements have not been equally shared, revealing a public health equity challenge.
 

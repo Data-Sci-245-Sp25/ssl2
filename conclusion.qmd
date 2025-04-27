@@ -16,3 +16,15 @@ format: html
 - Disparities are influenced by structural inequities such as access to care, geographic isolation, and culturally appropriate services.
 
 - Removing White population data in comparative graphs reveals hidden trends and disparities among other racial groups that were previously masked by scale.
+
+ <font size="5"> Policy Recommendations </font> 
+ 
+1. Lung cancer is strongly linked to smoking history. Free nicotine replacement therapies (NRTs), local public health ads.
+
+2. Early detection saves lives. Offer low-dose CT scan lung cancer screening at low or no cost. Partner with primary care clinics, community health centers.
+
+3. Awareness gaps differ by community. Launch culturally sensitive public education efforts about lung cancer symptoms, risk factors (like radon exposure, occupational hazards). Use multilingual materials, trusted local organizations, and radio/social media tailored to each group.
+
+4. Exposure to pollutants can increase lung cancer risk too (not just smoking). Strengthen policies around workplace safety for hazard protection. 
+
+5. Disparities in healthcare access worsen outcomes. Expand Medicaid coverage and community clinic funding for lung health screenings and treatment access in low-income areas.

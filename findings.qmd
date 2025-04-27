@@ -16,7 +16,6 @@ format:
 library(tidyverse)
 ```
 
-
 ```{r}
 #| echo: false
 white <- read.csv("whiteSummary.csv", header=TRUE)
@@ -233,8 +232,9 @@ ggplot(lung_faceted, aes(x = ddodyear, y = Rate)) +
   geom_line(color = "steelblue", size = 1) +
   geom_point(color = "darkred") +
   facet_wrap(~ Race, scales = "free_y") +
-  labs(title = "Lung Cancer Death Rates per Race (2014–2023)", x = "Year", y = "Death Rate per 100,000") +
+  labs(title = "Lung Cancer Death Rates per Race (2014–2023)", x = "Year", y = "Death Rate per 100,000")+
   theme_minimal()
+
 
 ```
 :::

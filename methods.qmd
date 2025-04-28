@@ -2,3 +2,23 @@
 title: "Methods"
 format: html
 ---
+
+The data used in this analysis is aggregated from individual cancer death cases in Multnomah County over the last 10 years.
+
+The decedents included in the data utilized for this study are those who have cancer listed as their cause of death, determined by a physician.
+
+The race and ethnicity of the decedent are determined by their vital record, which is most often self-reported and thus subject to possible under-reporting. The racial and ethnic categories coded by the current REALD system provide a certain level of granularity, while record-keeping systems such as REALD+ aim to increase race & ethnicity specifications. Thus, because this research was conducted at a time when REALD is the primary record-keeping system, this research only includes the following categories:
+
+-   American Indian/Alaska Native, non-Hispanic
+
+-   Asian, non-Hispanic
+
+-   Black, non-Hispanic
+
+-   Hispanic/Latinx
+
+-   Native Hawaiian/Pacific Islander, non-Hispanic
+
+-   White, non-Hispanic
+
+-   Two or more non-Hispanic races

@@ -1,15 +1,5 @@
 [
   {
-    "objectID": "abstract.html",
-    "href": "abstract.html",
-    "title": "Abstract",
-    "section": "",
-    "text": "This project analyzes cancer mortality data from Multnomah County, focusing on how the top three causes of cancer-related deaths have varied across racial and ethnic groups over the past ten years. Race and ethnicity were selected as key variables due to their deep connections with structural factors such as geographic location, access to care, and economic status. Historically, communities of color in Multnomah County have been disproportionately impacted by health inequities stemming from systemic discrimination. By centering these populations in our analysis, this research aims to bring visibility to patterns of disparity that are often underrepresented in public health data. The findings from this study are intended to support the Multnomah County Health Department in developing more informed, equitable, and community-responsive health policies moving forward.",
-    "crumbs": [
-      "Abstract"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "How do the top 3 types of cancer death vary among each race and ethnicity over the past 10 years?",
@@ -20,18 +10,13 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "objectID": "aim.html",
-    "href": "aim.html",
-    "title": "Aim of Research",
-=======
-    "objectID": "conclusion.html",
-    "href": "conclusion.html",
-    "title": "Conclusions",
+    "objectID": "methods.html",
+    "href": "methods.html",
+    "title": "Methods",
     "section": "",
-    "text": "Lung cancer is the leading cause of cancer-related death across all racial and ethnic groups in Multnomah County over the past decade.\nWhite populations experience significantly higher lung cancer death rates than all other groups, peaking at over 300 deaths per 100,000 in 2015.\nBlack individuals show the second-highest mortality rates, with substantial fluctuations and a notable spike in 2017.\nHispanic and Asian populations consistently show lower death rates, although they still face year-to-year variation and should not be overlooked.\nThe top three cancer types differ across racial/ethnic groups: for example, liver and prostate cancer rank high among Black individuals, while pancreatic cancer is more prevalent among White and Hispanic populations.\nDisparities are influenced by structural inequities such as access to care, geographic isolation, and culturally appropriate services.\nRemoving White population data in comparative graphs reveals hidden trends and disparities among other racial groups that were previously masked by scale.\n\n Policy Recommendations \n\nLung cancer is strongly linked to smoking history. Free nicotine replacement therapies (NRTs), local public health ads.\nEarly detection saves lives. Offer low-dose CT scan lung cancer screening at low or no cost. Partner with primary care clinics, community health centers.\nAwareness gaps differ by community. Launch culturally sensitive public education efforts about lung cancer symptoms, risk factors (like radon exposure, occupational hazards). Use multilingual materials, trusted local organizations, and radio/social media tailored to each group.\nExposure to pollutants can increase lung cancer risk too (not just smoking). Strengthen policies around workplace safety for hazard protection.\nDisparities in healthcare access worsen outcomes. Expand Medicaid coverage and community clinic funding for lung health screenings and treatment access in low-income areas.",
+    "text": "The data used in this analysis is aggregated from individual cancer death cases in Multnomah County over the last 10 years.\nThe decedents included in the data utilized for this study are those who have cancer listed as their cause of death, determined by a physician.\nThe race and ethnicity of the decedent are determined by their vital record, which is most often self-reported and thus subject to possible under-reporting. The racial and ethnic categories coded by the current REALD system provide a certain level of granularity, while record-keeping systems such as REALD+ aim to increase race & ethnicity specifications. Thus, because this research was conducted at a time when REALD is the primary record-keeping system, this research only includes the following categories:\n\nAmerican Indian/Alaska Native, non-Hispanic\nAsian, non-Hispanic\nBlack, non-Hispanic\nHispanic/Latinx\nNative Hawaiian/Pacific Islander, non-Hispanic\nWhite, non-Hispanic\nTwo or more non-Hispanic races\nTest edit",
     "crumbs": [
-      "Conclusions"
+      "Methods"
     ]
   },
   {
@@ -45,17 +30,6 @@
     ]
   },
   {
-    "objectID": "background.html",
-    "href": "background.html",
-    "title": "Background Information",
->>>>>>> de222063c36c1f03de310d8d0b7cc12e3de69873
-    "section": "",
-    "text": "Key takeaways:\n\nCancer is a leading cause of death in the U.S., but progress in reducing mortality has not been equally shared across racial and ethnic groups.\nRacial disparities in cancer outcomes are shaped by systemic inequities such as structural racism, unequal healthcare access, and socioeconomic barriers.\nBlack Americans face the highest cancer mortality rates nationally, especially in prostate and colorectal cancers.\nNative American and Alaska Native populations have rising cancer death rates, often worsened by geographic isolation and limited access to culturally appropriate care.\nLocal-level data, like that of Multnomah County, is critical to uncovering place-based disparities and designing targeted public health responses.\n\nCancer remains one of the leading causes of death in the United States, with significant disparities in outcomes across racial and ethnic groups (CDC 2023). Although overall cancer mortality has declined since the early 2000s, these improvements have not been equally shared, revealing a public health equity challenge.\nThese disparities are rooted in structural racism and shaped by a range of socioeconomic and environmental factors—such as unequal access to timely care, differences in insurance coverage, and varying exposure to risk factors (Jack and Mitchell 2023). Historical patterns of discrimination continue to impact cancer screening rates, stage at diagnosis, treatment access, and survival outcomes.\nBlack Americans experience the highest overall cancer mortality rates among all racial and ethnic groups, especially in prostate and colorectal cancers (CDC 2025). For example, Black men face a prostate cancer death rate nearly twice that of white men, despite having similar incidence rates—highlighting critical inequities in detection, treatment, and care quality.\nNative American and Alaska Native populations have seen rising mortality rates for several cancer types, including lung, colorectal, liver, stomach, and kidney cancers (Jack and Mitchell). Geographic isolation, underfunded healthcare systems, and a lack of culturally responsive cancer care further exacerbate these outcomes.\nPlace-based disparities intersect with racial and ethnic inequities in complex ways. Understanding local-level patterns is essential to developing effective, targeted public health interventions.\nDespite growing awareness of the links between cancer and racial disparities, public health literature remains limited in its exploration of these issues at the county level. This research seeks to address that gap by examining the relationship between race/ethnicity and cancer-related deaths in Multnomah County, Oregon.\nNotably, while cancer incidence among non-Hispanic white populations has increased nationally, this trend does not directly correspond to mortality rates. So, just knowing how many people get cancer isn’t enough — we need to look separately at how many actually die from it, and break that down by race and location to understand the full picture.\n\n\n\nGraph from the CDC’s “History of Cancer” page\n\n\nThis study aims to uncover persistent gaps in cancer outcomes across racial and ethnic groups in Multnomah County. By focusing on localized data, the research provides actionable insights for healthcare providers, policymakers, and community organizations working to advance cancer health equity.",
-    "crumbs": [
-      "Background Information"
-    ]
-  },
-  {
     "objectID": "aim.html",
     "href": "aim.html",
     "title": "Aim of Research",
@@ -66,13 +40,33 @@
     ]
   },
   {
-    "objectID": "methods.html",
-    "href": "methods.html",
-    "title": "Methods",
+    "objectID": "abstract.html",
+    "href": "abstract.html",
+    "title": "Abstract",
     "section": "",
-    "text": "The data used in this analysis is aggregated from individual cancer death cases in Multnomah County over the last 10 years.\nThe decedents included in the data utilized for this study are those who have cancer listed as their cause of death, determined by a physician.\nThe race and ethnicity of the decedent are determined by their vital record, which is most often self-reported and thus subject to possible under-reporting. The racial and ethnic categories coded by the current REALD system provide a certain level of granularity, while record-keeping systems such as REALD+ aim to increase race & ethnicity specifications. Thus, because this research was conducted at a time when REALD is the primary record-keeping system, this research only includes the following categories:\n\nAmerican Indian/Alaska Native, non-Hispanic\nAsian, non-Hispanic\nBlack, non-Hispanic\nHispanic/Latinx\nNative Hawaiian/Pacific Islander, non-Hispanic\nWhite, non-Hispanic\nTwo or more non-Hispanic races",
+    "text": "This project analyzes cancer mortality data from Multnomah County, focusing on how the top three causes of cancer-related deaths have varied across racial and ethnic groups over the past ten years. Race and ethnicity were selected as key variables due to their deep connections with structural factors such as geographic location, access to care, and economic status. Historically, communities of color in Multnomah County have been disproportionately impacted by health inequities stemming from systemic discrimination. By centering these populations in our analysis, this research aims to bring visibility to patterns of disparity that are often underrepresented in public health data. The findings from this study are intended to support the Multnomah County Health Department in developing more informed, equitable, and community-responsive health policies moving forward.",
     "crumbs": [
-      "Methods"
+      "Abstract"
+    ]
+  },
+  {
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "Background Information",
+    "section": "",
+    "text": "Key takeaways:\n\nCancer is a leading cause of death in the U.S., but progress in reducing mortality has not been equally shared across racial and ethnic groups.\nRacial disparities in cancer outcomes are shaped by systemic inequities such as structural racism, unequal healthcare access, and socioeconomic barriers.\nBlack Americans face the highest cancer mortality rates nationally, especially in prostate and colorectal cancers.\nNative American and Alaska Native populations have rising cancer death rates, often worsened by geographic isolation and limited access to culturally appropriate care.\nLocal-level data, like that of Multnomah County, is critical to uncovering place-based disparities and designing targeted public health responses.\n\nCancer remains one of the leading causes of death in the United States, with significant disparities in outcomes across racial and ethnic groups (CDC 2023). Although overall cancer mortality has declined since the early 2000s, these improvements have not been equally shared, revealing a public health equity challenge.\nThese disparities are rooted in structural racism and shaped by a range of socioeconomic and environmental factors—such as unequal access to timely care, differences in insurance coverage, and varying exposure to risk factors (Jack and Mitchell 2023). Historical patterns of discrimination continue to impact cancer screening rates, stage at diagnosis, treatment access, and survival outcomes.\nBlack Americans experience the highest overall cancer mortality rates among all racial and ethnic groups, especially in prostate and colorectal cancers (CDC 2025). For example, Black men face a prostate cancer death rate nearly twice that of white men, despite having similar incidence rates—highlighting critical inequities in detection, treatment, and care quality.\nNative American and Alaska Native populations have seen rising mortality rates for several cancer types, including lung, colorectal, liver, stomach, and kidney cancers (Jack and Mitchell). Geographic isolation, underfunded healthcare systems, and a lack of culturally responsive cancer care further exacerbate these outcomes.\nPlace-based disparities intersect with racial and ethnic inequities in complex ways. Understanding local-level patterns is essential to developing effective, targeted public health interventions.\nDespite growing awareness of the links between cancer and racial disparities, public health literature remains limited in its exploration of these issues at the county level. This research seeks to address that gap by examining the relationship between race/ethnicity and cancer-related deaths in Multnomah County, Oregon.\nNotably, while cancer incidence among non-Hispanic white populations has increased nationally, this trend does not directly correspond to mortality rates. So, just knowing how many people get cancer isn’t enough — we need to look separately at how many actually die from it, and break that down by race and location to understand the full picture.\n\n\n\nGraph from the CDC’s “History of Cancer” page\n\n\nThis study aims to uncover persistent gaps in cancer outcomes across racial and ethnic groups in Multnomah County. By focusing on localized data, the research provides actionable insights for healthcare providers, policymakers, and community organizations working to advance cancer health equity.",
+    "crumbs": [
+      "Background Information"
+    ]
+  },
+  {
+    "objectID": "conclusion.html",
+    "href": "conclusion.html",
+    "title": "Conclusions",
+    "section": "",
+    "text": "Lung cancer is the leading cause of cancer-related death across all racial and ethnic groups in Multnomah County over the past decade.\nWhite populations experience significantly higher lung cancer death rates than all other groups, peaking at over 300 deaths per 100,000 in 2015.\nBlack individuals show the second-highest mortality rates, with substantial fluctuations and a notable spike in 2017.\nHispanic and Asian populations consistently show lower death rates, although they still face year-to-year variation and should not be overlooked.\nThe top three cancer types differ across racial/ethnic groups: for example, liver and prostate cancer rank high among Black individuals, while pancreatic cancer is more prevalent among White and Hispanic populations.\nDisparities are influenced by structural inequities such as access to care, geographic isolation, and culturally appropriate services.\nRemoving White population data in comparative graphs reveals hidden trends and disparities among other racial groups that were previously masked by scale.\n\n Policy Recommendations \n\nLung cancer is strongly linked to smoking history. Free nicotine replacement therapies (NRTs), local public health ads.\nEarly detection saves lives. Offer low-dose CT scan lung cancer screening at low or no cost. Partner with primary care clinics, community health centers.\nAwareness gaps differ by community. Launch culturally sensitive public education efforts about lung cancer symptoms, risk factors (like radon exposure, occupational hazards). Use multilingual materials, trusted local organizations, and radio/social media tailored to each group.\nExposure to pollutants can increase lung cancer risk too (not just smoking). Strengthen policies around workplace safety for hazard protection.\nDisparities in healthcare access worsen outcomes. Expand Medicaid coverage and community clinic funding for lung health screenings and treatment access in low-income areas.",
+    "crumbs": [
+      "Conclusions"
     ]
   }
 ]

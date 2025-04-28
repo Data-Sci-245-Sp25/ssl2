@@ -232,3 +232,75 @@ ggplot(lung_faceted, aes(x = ddodyear, y = Rate)) +
 :::
 
 This visualization shows lung cancer death rates per 100,000 individuals from 2014 to 2023, broken down by race: Asian, Black, Hispanic, and White populations. By separating each group into its own panel, the graph allows for a clearer comparison of trends without one group visually dominating due to scale. The White population stands out with consistently higher death rates, peaking sharply in 2015 above 300 deaths per 100,000 and gradually declining afterward. In contrast, Black and Asian populations show mid-range rates with notable year-to-year fluctuations, particularly a spike for Black individuals in 2017. Hispanic populations consistently report the lowest rates, though their trend line also varies across years. This format highlights disparities while maintaining equal visual weight for each racial group, making it easier to detect patterns that could inform targeted interventions.
+
+::: center-plot
+```{r}
+#| echo: false
+#| warning: false
+top3 <- read.csv("top3SummaryByRac.csv")
+
+top3_no_white <- subset(top3, race_group != "White alone")
+
+ggplot(top3_no_white, aes(x = ddodyear, y = deaths, fill = diseaseSite)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~ race_group) +  
+  labs(title = "Top 3 Cancer Deaths Over Time by Race (Excluding White)",
+       x = "Year",
+       y = "Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+:::
+
+The figure above shows the number of deaths caused by the top three cancer types, breast, lung, and pancreatic cancer, over time across different racial and ethnic groups, excluding white individuals. 
+
+::: center-plot
+```{r}
+#| echo: false
+#| warning: false
+white_top3 <- subset(top3, race_group == "White alone")
+
+ggplot(white_top3, aes(x = ddodyear, y = deaths, fill = diseaseSite)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Top 3 Cancer Deaths Among Whites Over Time", x = "Year", y = "Deaths") +
+  theme_minimal()
+ggsave("white_top_3.png", width = 12, height = 8, dpi = 300)
+
+```
+:::
+
+Above is a bar plot of white individuals only. It was separated from the previous graph due to the high volume of entries. 
+
+::: center-plot
+```{r}
+#| echo: false
+#| warning: false
+library(ggplot2)
+library(patchwork)  
+
+
+top3 <- read.csv("top3SummaryByRac.csv")
+top3_no_white <- subset(top3, race_group != "White alone")
+
+plot_all <- ggplot(top3, aes(x = ddodyear, y = deaths, color = race_group)) +
+  geom_line(stat = "summary", fun = "sum") +
+  labs(title = "Cancer Deaths by Race Over Time (All)", 
+       x = "Year", 
+       y = "Total Deaths") +
+  theme_minimal()
+
+plot_no_white <- ggplot(top3_no_white, aes(x = ddodyear, y = deaths, color = race_group)) +
+  geom_line(stat = "summary", fun = "sum") +
+  labs(title = "Cancer Deaths by Race Over Time (Excluding White)", 
+       x = "Year", 
+       y = "Total Deaths") +
+  theme_minimal()
+
+combined_plot <- plot_all / plot_no_white
+
+print(combined_plot)
+
+```
+:::

@@ -286,14 +286,14 @@ top3_no_white <- subset(top3, race_group != "White alone")
 
 plot_all <- ggplot(top3, aes(x = ddodyear, y = deaths, color = race_group)) +
   geom_line(stat = "summary", fun = "sum") +
-  labs(title = "Cancer Deaths by Race Over Time (All)", 
+  labs(title = "Cancer Deaths", 
        x = "Year", 
        y = "Total Deaths") +
   theme_minimal()
 
 plot_no_white <- ggplot(top3_no_white, aes(x = ddodyear, y = deaths, color = race_group)) +
   geom_line(stat = "summary", fun = "sum") +
-  labs(title = "Cancer Deaths by Race Over Time (Excluding White)", 
+  labs(title = "Cancer Deaths (Excluding White)", 
        x = "Year", 
        y = "Total Deaths") +
   theme_minimal()
@@ -304,3 +304,5 @@ print(combined_plot)
 
 ```
 :::
+
+Finally, here is a line chart visualizing all cancer deaths by race overtime, with white entires seperated to clearly show each variable. 
